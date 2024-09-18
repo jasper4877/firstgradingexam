@@ -1,0 +1,51 @@
+:root {
+  --primary-color: #4a90e2;
+  --secondary-color: #e74c3c;
+  --accent-color: #f39c12;
+  --background-color: #1a1a1a;
+  --card-background: #2c2c2c;
+  --text-color: #e0e0e0;
+  --text-color-muted: #a0a0a0;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.App-header {
+  background-color: var(--card-background);
+  padding: 20px;
+  color: var(--primary-color);
+}
+
+main {
+  flex: 1;
+  padding-bottom: 60px; /* Adjust this value based on your footer height */
+}
+
+.App-footer {
+  background-color: var(--card-background);
+  color: var(--text-color-muted);
+  padding: 10px;
+  text-align: center;
+}
